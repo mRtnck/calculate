@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+.tbl{
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid;
+    background: rgba( 65, 117, 5, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 10.5px );
+-webkit-backdrop-filter: blur( 10.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+margin-left: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input{
+    border: none;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+}
+button{
+    border: 1;
+    background-color: rgba(240, 248, 255, 0);
+    width: 50px;
+    height: auto;
+    z-index: -1;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 5px;
+   
+}
+/* button:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+} */
+img{
+    scale: 0.2;
+}
+#Resuilt{
+    font-size: 30px;
+}
+#sum{
+    width: 150px;
+}
+tr.bu>td>:nth-child(1){
+    width: 80px;
+}
